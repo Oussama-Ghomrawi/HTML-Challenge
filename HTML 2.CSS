@@ -1,0 +1,47 @@
+.big-title {text-align: center;
+    font-size:  200%;
+    color: rgb(255, 0, 0);
+}
+.link1 {
+    background-color: lightcoral;
+}
+a.link1:hover {
+color: rgb(38, 0, 255);
+font-size: 150%;
+}
+
+.list1 {
+    text-align: center;
+    background-color: hotpink;
+   margin: 0% 40% 0% 40%;
+}
+.footer-link {
+    font-size: 110%;
+    color: crimson;
+    text-align: center;
+}
+.codi-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vertical-menu {
+    width: 200px;
+    display: inline;    
+    
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black; 
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
