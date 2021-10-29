@@ -1,0 +1,104 @@
+body{
+   margin-inline: 200px;
+}
+.cover-img {
+    display: block;
+   width: 100%; 
+}
+
+
+
+/* HERE START THE NAV BAR */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: #111;
+  }
+/* HERE END THE NAV BAR */
+
+/* HERE START THE GRID */
+.grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+    
+ }
+   
+ #g1 {
+ 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+    
+ }
+ #g2 {
+  
+    grid-row-start: 1;
+    grid-column-start: 3;
+ 
+    grid-row-end: 3;
+    grid-column-end: 7;
+    
+ }
+ #g3 {
+ 
+ 
+    grid-row-start: 3;
+    grid-column-start: 3;
+ 
+    grid-row-end: 6;
+    grid-column-end: 5;
+    
+ }
+ #g4 {
+  
+    grid-row-start: 3;
+    grid-column-start: 5;
+ 
+    grid-row-end: 6;
+    grid-column-end: 7;
+    
+ }
+ #g5 {
+  
+    grid-row-start: 4;
+    grid-column-start: 1;
+ 
+    grid-row-end: 6;
+    grid-column-end: 3;
+    
+ }
+
+ /* HERE END THE GRID */
+
+ #listx a{
+    text-decoration: underline;
+    list-style: square;
+    text-indent: -180px;
+ }
+
+ .input  {
+    text-decoration-color: azure;
+ }
